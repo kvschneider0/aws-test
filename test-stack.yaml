@@ -1,11 +1,6 @@
  Resources:
-  BabayTest:
+  BabayTestTable:
     Type: AWS::DynamoDB::Table
     Properties:
       TableName: Babay
-      AttributeDefinitions:
-        - AttributeName: Name
-          AttributeType: S
-      KeySchema:
-        - AttributeName: Name
-        - KeyType: HASH
+
