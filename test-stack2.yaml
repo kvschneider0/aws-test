@@ -1,5 +1,5 @@
 Resources:
-  TekLoonTestInstance:
+  TestBabayTable:
     Type: AWS::DynamoDB::Table
     Properties:
       TableName: TestBabay
