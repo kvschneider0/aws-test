@@ -1,9 +1,0 @@
-Resources:
-  TestBabayTable:
-    Type: AWS::DynamoDB::Table
-    Properties:
-      TableName: TestBabay
-      AttributeDefinitions: 
-        - AttributeName: CoolId
-          AttributeType: S
-      BillingMode: PAY_PER_REQUEST
